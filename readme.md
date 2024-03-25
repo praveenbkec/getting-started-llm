@@ -1,13 +1,13 @@
 # Large Language Model Examples
 
 ## 1. Question and Answering using mistral-7b-instruct LLM Model
-commands to streamlit chat app: 
+command run chat app: 
 
 > streamlit run chatapp.py
         
         
 ## 2. Simple RAG using Google Gemini-Pro LLM Model
-ommands to streamlit chat app:
+commands to run chat app:
 
 > streamlit run chatpdf.py
 
@@ -23,3 +23,7 @@ Run docker using command
 
 Access server using below command 
 > curl --location 'http://127.0.0.1/ask' --header 'Content-Type: application/json' --data '{"category":"joke","input_text":"Sachin","no_words":"100"}'
+
+> {
+    "generated_text": "\n\nSachin Tendulkar, the cricket legend, was asked to write an autobiography. He replied, \"I'm not sure I want to reveal all my secrets.\" The interviewer asked, \"What do you mean?\" Sachin smiled and said, \"Well, for starters, how did I manage to hit so many boundaries without getting caught?\""
+}
