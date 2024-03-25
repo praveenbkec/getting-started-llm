@@ -15,6 +15,10 @@ commands to run chat app:
 run the notebook examples
 
 ## 3. Approach to run LLM Locally/Cloud
+
+create a folder 'deploy' in root dir, download llm using below URL and copy llm file to folder.
+>  https://huggingface.co/BashitAli/llama-2-7b-chat.ggmlv3.q5_K_M
+
 build docker using command
 > docker build -t sausalito/llama-2-7b-chat-llm-api .
 
