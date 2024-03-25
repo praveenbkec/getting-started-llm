@@ -1,0 +1,6 @@
+torch
+torchvision
+transformers
+langchain
+Flask
+ctransformers
