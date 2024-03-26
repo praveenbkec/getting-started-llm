@@ -16,7 +16,7 @@ run the notebook examples
 
 ## 3. Approach to run LLM Locally/Cloud
 
-create a folder 'deploy' in root dir, download llm using below URL and copy llm file to folder.
+create a folder 'deploy' in root dir, download llm and copy llm file to folder. Ex: download llm from below URL
 >  https://huggingface.co/BashitAli/llama-2-7b-chat.ggmlv3.q5_K_M
 
 build docker using command
